@@ -14,16 +14,16 @@ export const App: FC = () => {
       <Router>
         <nav>
           <ul>
-            <li>
+            <li class="menu_item">
               <Link to="/characters">Characters</Link>
             </li>
-            <li>
+            <li class="menu_item">
               <Link to="/episodes">Episodes</Link>
             </li>
-            <li>
+            <li class="menu_item">
               <Link to="/locations">Locations</Link>
             </li>
-            <li>
+            <li class="menu_item">
               <Link to="/mywatchlist">MyWatchList</Link>
             </li>
           </ul>
